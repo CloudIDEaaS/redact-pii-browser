@@ -2,7 +2,7 @@
 
 > This package is a fork of [redact-pii](https://www.npmjs.com/package/redact-pii) with `@google-cloud/dlp` in peer dependencies. More details can be [found here](https://github.com/solvvy/redact-pii/pull/25).
 
-Remove personallyhttps://github.com/CloudIDEaaS/redact-pii-browser/tree/main identifiable information from text.  Works with request, response.
+Remove personally identifiable information from text.  Works with request, response.
 
 ### Prerequesites
 
