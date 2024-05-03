@@ -1,8 +1,8 @@
-# redact-pii-light
+# redact-pii-browser
 
 > This package is a fork of [redact-pii](https://www.npmjs.com/package/redact-pii) with `@google-cloud/dlp` in peer dependencies. More details can be [found here](https://github.com/solvvy/redact-pii/pull/25).
 
-Remove personally identifiable information from text.
+Remove personallyhttps://github.com/CloudIDEaaS/redact-pii-browser/tree/main identifiable information from text.  Works with request, response.
 
 ### Prerequesites
 
@@ -12,11 +12,11 @@ It is written in TypeScript and compiles to ES2017. The library makes use of `as
 ### Simple example (synchronous API)
 
 ```
-npm install redact-pii-light
+npm install @cloudideaas/redact-pii-browser
 ```
 
 ```js
-const { SyncRedactor } = require('redact-pii-light');
+const { SyncRedactor } = require('cloudideaas/redact-pii-browser');
 const redactor = new SyncRedactor();
 const redactedText = redactor.redact('Hi David Johnson, Please give me a call at 555-555-5555');
 // Hi NAME, Please give me a call at PHONE_NUMBER
